@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, StyleSheet, View, Image} from 'react-native';
+import {Text, StyleSheet, View, Image, } from 'react-native';
 
 //Komponen adalah fungsi yg mengembalikan JSX
 const App = () => {
@@ -70,8 +70,8 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    width: 300,
-    height: 300,
+    width: 200,
+    height: 200,
     margin: 10,
     borderRadius: 10,
   },
