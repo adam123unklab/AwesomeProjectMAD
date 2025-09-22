@@ -5,9 +5,8 @@ import TextInput from './components/TextInput';
 import Title from './components/Title';
 
 const Exercise5 = () => {
-  const [username, setUsername] = useState('');
+  const [username, setUsername] = useState('oiiiiiiiii');//varibale state
   const [password, setPassword] = useState('');
-
   const handleLogin = () => {
     console.log('Login dengan:', {username, password});
   };
